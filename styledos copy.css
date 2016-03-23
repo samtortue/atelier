@@ -1,0 +1,194 @@
+* {
+  margin-left: 0.4vw;
+}
+body {
+  background-color: black;
+}
+/* ***************************************************************************** General */
+
+
+
+.clouds {
+  width: 6%;
+}
+#container{
+  background-color: black;
+
+}
+#background {
+  position: fixed;
+  z-index: -1;
+  /*insert code here*/
+}
+#fixed-bg{
+  top: 12vh;
+  position: fixed;
+  left: -6vw;
+}
+#invisibleBg {
+  position:fixed;
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+  z-index: 1;
+  top: 100%;
+}
+
+@keyframes {
+/* ____________________________ Insert code here*/
+}
+
+
+/* ***************************************************************************** Clouds x3 */
+#cloud1 {
+  position: absolute;
+  top: 32%;
+  left:19%;
+/*insert code here*/
+}
+@keyframes slide {
+  /*insert code here*/
+}
+
+#cloud2 {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+/*insert code here*/
+}
+@keyframes {
+  /*insert code here*/
+}
+
+
+/******************************************************************************** Raindrops x4 */
+#raindrop{
+  position: absolute;
+  left: 30%;
+  width: 1%;
+/*insert code here*/
+  opacity: 0;
+}
+
+#raindrop2{
+  position: absolute;
+  top: 48%;
+  left: 70%;
+  width: 1.9%;
+  opacity: 0;
+/*insert code here */
+}
+
+#raindrop3{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 1.3%;
+  opacity: 0;
+/*insert code here */
+}
+
+#raindrop4{
+  position: absolute;
+  top: 62%;
+  left: 53%;
+  width: .6%;
+  opacity: 0;
+/* insert code here */
+}
+
+#raindrop5{
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  width: .8%;
+  opacity: 0;
+  /* insert code here */
+}
+/****************************************************************************** Anim de la pluie*/
+@keyframes  {
+  /* insert code here */
+
+
+}
+@keyframes raining2 {
+  /* insert code here */
+
+}
+@keyframes raining3 {
+  /* insert code here */
+
+}
+@keyframes raining4 {
+  /* insert code here */
+
+}
+
+@keyframes raining5 {
+  /* insert code here */
+
+}
+
+/******************************************************************************** End raindrops */
+#rainbow {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: none;
+
+}
+/******************************************************************************** The grass */
+/*#grass {
+  position: absolute;
+  top: 70vh;
+  margin-left: 0.5vw;
+  width: 100%;
+}*/
+
+
+/******************************************************************************** The rabbit */
+#rabbit {
+  top: 68vh;
+  left: 9vw;
+  position: absolute;
+  /* insert code here */
+  z-index: -1;
+}
+
+@keyframes {
+  /* insert code here */
+
+ }
+
+
+
+/* ***************************************************************************** The train + railway */
+#train {
+  position: absolute;
+  top: 830px;
+  left: 70%;
+  width: 20%;
+  /* insert code here */
+  z-index: 3;
+  /* insert code here */
+}
+@keyframes  {
+  }
+
+
+#railway {
+  position: absolute;
+  width: 350px;;
+  height: 90px;
+  top: 955px;
+  right: 13%;
+    background-image: url("railway.png");
+    background-repeat: repeat-x;
+  z-index: 2;
+  }
+
+@keyframes  {
+
+}
+
+#
